@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 1.求出1-100之间所有数的和与平均值
+        var sum = 0;
+        var everage = 0;
+        for (var i = 1; i <= 100; i++) {
+            sum += i;
+        }
+        everage = sum / 100;
+        console.log(sum);
+        console.log(everage);
+        // 2.求出1-100之间所有偶数的和
+        var even = 0;
+        for (var j = 1; j <= 100; j++) {
+            if (j % 2 == 0) {
+                even += j;
+            }
+        }
+        console.log(even);
+        // 3.求出100以内7的倍数的总和
+        var eva = 0;
+        for (var l = 1; l <= 100; l++) {
+            if (l % 7 == 0) {
+                eva += l;
+            }
+        }
+        console.log(eva);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
